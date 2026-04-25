@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: tcc-app
+data:
+  APP_MESSAGE: "hello-from-configmap"
+  WORKER_MODE: "stable"

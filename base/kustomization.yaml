@@ -1,0 +1,7 @@
+resources:
+  - namespace.yaml
+  - configmap.yaml
+  - secret.yaml
+  - frontend.yaml
+  - api.yaml
+  - worker.yaml
